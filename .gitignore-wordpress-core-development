@@ -1,0 +1,51 @@
+# Config
+wp-config.php
+.gitignore
+
+# Hidden & config files, like .htaccess, .wp-tests-version, or .DS_Store
+/.*
+*~
+Thumbs.db
+
+# Patches, DB dumps, inappropriate filetypes
+*.diff
+*.patch
+*.sql
+*.zip
+
+# wp-content
+wp-content/upgrade
+wp-content/uploads
+wp-content/blogs.dir
+wp-content/plugins/*
+wp-content/themes/*
+
+# Whitelist core themes
+!wp-content/themes/twentyeleven
+!wp-content/themes/twentyten
+!wp-content/themes/twentythirteen
+!wp-content/themes/twentytwelve
+
+# Styles theme files
+wp-content/themes/*/customize.css
+wp-content/themes/*/customize.json
+
+# Caches
+cache
+.cache
+temp
+tmp
+*.tmp
+imagecache*
+gt-cache
+ics-importer-cache
+wp-content/w3tc*
+wp-content/w3-*
+wp-content/themes/thesis*/custom/cache
+wp-content/themes/thesis*/lib/scripts/cache
+wp-content/themes/*/cache
+wp-content/plugins/*/cache
+wp-content/temp*
+wp-content/upgrade/*
+sitemap.xml
+sitemap.xml.gz

@@ -1,0 +1,132 @@
+/.htaccess
+find.php
+wp-config.php
+
+# MediaTemple
+subdomains/*
+
+# Some SASS Processors
+.sass-cache
+
+# cPanel/Plesk hosts
+/anon_ftp
+/bin
+/cgi-bin
+/conf
+/error_docs
+/pd
+/private
+/statistics
+/subdomains
+/web_users
+/.ssh
+/.viminfo
+/cgi*
+/data
+
+# System & Hidden Files
+*~
+.DS_Store
+Thumbs.db
+.svn
+.cvs
+.git
+.listing
+*.bak
+*.swp
+*.lck
+*.LCK
+.bash*
+.cgi*
+.my.cnf
+
+# Upload directories
+wp-content/uploads
+wp-content/blogs.dir/*/*
+
+# Thumbnails
+# wp-content/uploads/*/*/*-*x*.*
+# wp-content/blogs.dir/*/*/*/*/*-*x*.*
+
+# Caches
+plugins/wp-file-cache/cache
+cache
+.cache
+temp
+tmp
+*.tmp
+imagecache*
+gt-cache
+ics-importer-cache
+wp-content/w3tc*
+wp-content/w3-*
+wp-content/themes/thesis*/custom/cache
+wp-content/themes/thesis*/lib/scripts/cache
+wp-content/themes/*/cache
+wp-content/plugins/*/cache
+wp-content/temp*
+wp-content/upgrade/*
+sitemap.xml
+sitemap.xml.gz
+
+# Backups
+backupbuddy_backups
+*_backup
+wp-config-sample.php
+wp-content/plugins/wpengine-snapshot/snapshots/*
+wp-content/uploads/snapshots
+wp-content/w3tc-bak
+wp-content/backup*
+wp-content/infinitewp
+
+# WordPress debugging files
+log.txt
+debug.log
+
+# Gallaries in various places
+gallery/*
+wp-content/gallery/*
+
+# Probably an upload error
+wp-content/plugins/plugins
+
+# WPEngine specific
+wp-content/object-cache.php
+wp-content/mu-plugins/mu-plugin.php
+wp-content/mu-plugins/wpengine-common
+wp-content/mysql.sql
+
+# large/disallowed file types
+# a CDN should be used for these
+*.hqx
+*.bin
+*.exe
+*.dll
+*.deb
+*.dmg
+*.iso
+*.img
+*.msi
+*.msp
+*.msm
+*.mid
+*.midi
+*.kar
+*.mp3
+*.ogg
+*.m4a
+*.ra
+*.3gpp
+*.3gp
+*.mp4
+*.mpeg
+*.mpg
+*.mov
+*.webm
+*.flv
+*.m4v
+*.mng
+*.asx
+*.asf
+*.wmv
+*.avi
